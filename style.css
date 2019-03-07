@@ -1,0 +1,25 @@
+body {
+    font-family: "Lucida Sans Unicode",
+    "Lucida Grande",
+    sans-serif;
+    font-size: 27px;
+    margin-top: 0px;
+}
+.header-img {
+    height: 3rem;
+    width: 5rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    margin-top: 5px;
+    color: WHITE;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-around;
+    background: BLACK;
+    width: 100vw;
+
+}
