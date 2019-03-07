@@ -8,18 +8,30 @@ body {
 .header-img {
     height: 3rem;
     width: 5rem;
+    color: white;
+    margin: 0px;
+}
+
+.logo-text {
+    
+    color:white;
 }
 
 .nav-link {
     text-decoration: none;
-    margin-top: 5px;
+    margin-top: 20px;
     color: WHITE;
+}
+
+.nav-link:hover {
+    color:
 }
 
 #nav-bar {
     display: flex;
     justify-content: space-around;
     background: BLACK;
+    height: 5rem;
     width: 100vw;
 
 }
