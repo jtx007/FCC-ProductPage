@@ -23,9 +23,7 @@ body {
     color: WHITE;
 }
 
-.nav-link:hover {
-    color:
-}
+
 
 #nav-bar {
     display: flex;
@@ -34,4 +32,29 @@ body {
     height: 5rem;
     width: 100vw;
 
+}
+
+#form {
+    text-align: center;
+}
+
+#video {
+    
+    margin: 1rem auto;
+    display: block;
+}
+
+#subscription-models {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.model {
+    height: 10rem;
+    width: 10rem;
+    text-align: center;
+    background-color: rgb(200, 129, 129);
+    border-radius: 20px;
 }

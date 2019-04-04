@@ -7,15 +7,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <script src="main.js"></script>
+    <style>
+        #nav-bar {
+        display: flex;
+        justify-content: space-around;
+        background: BLACK;
+        height: 5rem;
+        width: 100vw;
+
+        }
+
+        @media (max-width: 400px){
+        #subscription-models {
+        flex-direction: column;
+        justify-content: space-evenly;
+        }
+        }
+    </style>
 </head>
 <body>
     <header id="header">
         <nav id="nav-bar">
-            <a class="logo-text"><img alt="company-logo" src="https://www.designfreelogoonline.com/wp-content/uploads/2016/03/00106-3D-company-logo-design-free-logo-online-Template-04.png" class="header-img"/>ESKETAMINE</a>
-            <a class="nav-link" href=#>Home</a>
-            <a class="nav-link" href=#>Register</a>
-            <a class="nav-link" href=#>Login</a>
+            <a class="logo-text"><img id="header-img" alt="company-logo" src="https://www.designfreelogoonline.com/wp-content/uploads/2016/03/00106-3D-company-logo-design-free-logo-online-Template-04.png" class="header-img"/>Devil May Cry 5</a>
+            <a class="nav-link" href="#nav-bar">Home</a>
+            <a class="nav-link" href="#email">Register</a>
+            <a class="nav-link" href="#subscription-models">Product Options</a>
         </nav>
+        <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
+            <input name="email" type="email" required placeholder="Enter Email here" id="email">
+            <input  id="submit" type="submit">
+        </form>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/MWxlbnI9mpU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+        <div id="subscription-models">
+            <div class="model">
+                <p>Standard Edition $59.99</p>
+            </div>
+            <div class="model">
+                <p>Deluxe Edition $69.99</p>
+            </div>
+            <div class="model">
+                <p>Collectors Edition $99.99</p>
+            </div>
+        </div>
     </header>
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
